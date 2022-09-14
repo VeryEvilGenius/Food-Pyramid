@@ -1,13 +1,11 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class Potato_Joe_Controller : MonoBehaviour
+public class PotatoJoeController : MonoBehaviour
 {
     public Animator animator;
 
     // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
         //This is a list Potato Joe's Attacks. Use them to code his A.I
         //animator.SetTrigger("Hit!");
@@ -21,7 +19,7 @@ public class Potato_Joe_Controller : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
         
     }
