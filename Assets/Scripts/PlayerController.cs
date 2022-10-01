@@ -5,6 +5,7 @@ public class PlayerController : MonoBehaviour
     public Animator animator;
     public SpriteRenderer spriteRenderer;
     public Sprite burgerIdle;
+    public Sprite BurgerAttack4;
 
     public DirectionEnum Direction = DirectionEnum.None;
 
