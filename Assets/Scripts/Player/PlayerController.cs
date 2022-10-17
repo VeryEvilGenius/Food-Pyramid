@@ -3,6 +3,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     private PotatoJoeController PotatoJoeControllerScript;
+    private KarateKarrotKontroller KarateKarrotKontrollerScript;
 
     public Animator animator;
     public SpriteRenderer spriteRenderer;
@@ -26,6 +27,7 @@ public class PlayerController : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
 
         PotatoJoeControllerScript = GameObject.Find("Potato Joe").GetComponent<PotatoJoeController>();
+        KarateKarrotKontrollerScript = GameObject.Find("Karate Karrot").GetComponent<KarateKarrotKontroller>();
     }
 
     // Update is called once per frame
@@ -76,6 +78,7 @@ public class PlayerController : MonoBehaviour
     private void MEAT()
     {
         PotatoJoeControllerScript.Potato_Collision();
+        KarateKarrotKontrollerScript.Karrot_Kollision();
     }
 
     public void DodgeStart()

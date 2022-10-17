@@ -200,7 +200,7 @@ public class PotatoJoeController : MonoBehaviour
         Interrupt = true;
     }
 
-    //This function is activated if the Player collides with Joe
+    //This function is activated if the Player collides with Joe (For this function to work, it must be connected to the Player Controller)
     public void Potato_Collision()
     {
         //When Joe's attacks are interrupted by the player
