@@ -33,7 +33,7 @@ public class PotatoJoeController : MonoBehaviour
     public string Maturity = "Ripe";
 
     //Player Attack damage (Most likely will be moved to the Player Controller later...)
-    private float Damage = 10;
+    public float Damage = 10;
 
     //PLEASE READ: Certain functions are only activated in the animator (ex. AttackStart, AttackEnd)
 

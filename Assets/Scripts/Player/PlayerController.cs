@@ -77,8 +77,8 @@ public class PlayerController : MonoBehaviour
     //Triggers Boss Collision Animations
     private void MEAT()
     {
-        PotatoJoeControllerScript.Potato_Collision();
         KarateKarrotKontrollerScript.Karrot_Kollision();
+        PotatoJoeControllerScript.Potato_Collision();
     }
 
     public void DodgeStart()

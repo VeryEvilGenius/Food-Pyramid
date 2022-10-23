@@ -141,7 +141,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &48561209
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -202,7 +202,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 48561208}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 1}
+  m_LocalPosition: {x: 12, y: 0, z: 1}
   m_LocalScale: {x: 10, y: 10, z: 10}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -251,6 +251,7 @@ MonoBehaviour:
   time: 0
   timer: 0
   Maturity: Ripe
+  Damage: 10
 --- !u!1 &177612959
 GameObject:
   m_ObjectHideFlags: 0
@@ -864,9 +865,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 815617602}
-  cooldown: 1
-  time: 0
-  timer: 0
+  ComboTime: 0
+  AttackTime: 0
+  Alpha_Carotene: 0
+  Beta_Carotene: 0
+  Sigma_Carotene: 0
+  Vulnerable: 0
 --- !u!1 &1298028801
 GameObject:
   m_ObjectHideFlags: 0
